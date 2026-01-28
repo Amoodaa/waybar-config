@@ -93,7 +93,7 @@
   },
   "custom/amp-usage": {
     "exec": "amp usage 2>&1 | grep -oP 'Amp Free: \\$[0-9.]+/\\$[0-9]+'",
-    "interval": 300,
+    "interval": 15,
     "format": "{}",
     "tooltip": false
   },
